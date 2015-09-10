@@ -8,12 +8,15 @@ go get github.com/npat-efault/godef
 
 This is Roger Peppe's "godef" tool. The original code can be found at:
 
-  https://code.google.com/p/rog-go/source/browse/exp/cmd/godef/
+  https://github.com/rogpeppe/godef
+
+THERE IS NO LONGER ANY REASON TO USE THIS. USE THE ORIGINAL POINTED ABOVE
+INSTEAD.
 
 All I did was to move it here (and rewrite some import paths) in order
 to be able to "go get" it, without pulling a boat-load of unneeded
 clutter (something that happens when you try to get it from Roger's
-repository).
+repository). THIS IS NO LONGER THE CASE.
 
 I also removed the Acme editor support (-acme flag) in order to reduce
 its dependencies (and since I don't use Acme).
